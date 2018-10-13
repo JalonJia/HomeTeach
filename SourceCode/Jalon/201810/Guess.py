@@ -2,7 +2,10 @@
 
 import random
 
-number = random.randint(1, 50) #产生一个1到10之间的随机整数
+number = random.randint(1, 50) #产生一个1到50之间的随机整数
+#变量 赋值运算符= 函数调用的返回值
+#一盘饺子 = 妈妈.做饺子(饺子皮，饺子馅，火，水，勺子，锅，盘子)
+
 
 #print(number)
 
