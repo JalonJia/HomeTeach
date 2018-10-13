@@ -1,14 +1,14 @@
 g = 0
 w = 1
 q = 1
-print('猜数字在1—100里面,猜对才结束')
+print('猜数字在10000里面,猜对才结束')
 import random
-jkl = random.randint(1,100)
+jkl = random.randint(12222,12222)
 while q == w:
     iop = input()
     while q == w:
             if not iop.isdigit():
-                print('你输入的不是数字请重新输入')
+                print('请重新输入')
                 iop = input()
                 g += 1
             else:
