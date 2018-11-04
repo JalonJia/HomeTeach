@@ -4,7 +4,9 @@ pen = turtle.Turtle() #初始化一个画布，并生成画笔，画笔变量名
 
 #正方形
 pen.fd(100) #向前
-pen.lt(90) #拐弯
+pen.lt(90)
+
+n.lt(90) #拐弯
 pen.fd(100) 
 pen.lt(90) #拐弯
 pen.fd(100) 
